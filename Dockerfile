@@ -19,8 +19,8 @@ RUN python3.10 -c "import nltk; nltk.download('punkt')" && \
 
 COPY . .
 
-# (eoinwoods) create default config file (TODO - conditional copy)
-COPY ./config_template.yaml ./config.yaml
+# TODO COPY config file here
+RUN echo 'This is where the COPY goes'
 
 RUN chmod +x ./entrypoint.sh ./wait-for-it.sh ./install_tool_dependencies.sh ./entrypoint_celery.sh
 

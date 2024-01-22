@@ -19,9 +19,6 @@ RUN python3.10 -c "import nltk; nltk.download('punkt')" && \
 
 COPY . .
 
-# TODO COPY config file here
-RUN echo 'This is where the COPY goes'
-
 RUN chmod +x ./entrypoint.sh ./wait-for-it.sh ./install_tool_dependencies.sh ./entrypoint_celery.sh
 
 # Stage 2: Build image

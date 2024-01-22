@@ -115,7 +115,7 @@ You're all set! Start running your agents effortlessly.
 
 1. Open your terminal and clone the SuperAGI repository.
 ```
-git clone https://github.com/TransformerOptimus/SuperAGI.git 
+git clone https://github.com/eoinwoods/SuperAGI.git 
 ```
 
 2. Navigate to the cloned repository directory using the command:
@@ -144,7 +144,7 @@ cd SuperAGI
 #### 🌀 Digital Ocean
 
 <p align="left">
-<a href="https://cloud.digitalocean.com/apps/new?repo=https://github.com/TransformerOptimus/SuperAGI/tree/main"> <img src="https://www.deploytodo.com/do-btn-blue.svg"></a><br>Deploy SuperAGI to DigitalOcean with one click.
+<a href="https://cloud.digitalocean.com/apps/new?repo=https://github.com/eoinwoods/SuperAGI/tree/main"> <img src="https://www.deploytodo.com/do-btn-blue.svg"></a><br>Deploy SuperAGI to DigitalOcean with one click.
 </p>
 
 <a id="architecture">
